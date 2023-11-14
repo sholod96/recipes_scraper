@@ -1,6 +1,10 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
+import sys
+
+#Get max_iterations variable
+max_iterations = sys.argv[1]
 
 #Get all recipes types from https://www.recetasgratis.net/
 
@@ -109,7 +113,7 @@ def pages_iterator(recipe_link, max_pages):
 recipes_dict = {}
 for recipe_type in recipes_types:
   print(recipe_type)
-  recipes_dict[recipe_type] = pages_iterator(recipe_type, 3)
+  recipes_dict[recipe_type] = pages_iterator(recipe_type, max_iterations)
 
 #Data structure cleaning for dataframe
 
