@@ -19,4 +19,4 @@ date: "14 de Noviembre de 2023"
 
 ## Datos
 
-* recipes_scraping
+* recipes_scraping: El dataset resultante en formato csv separado por "|" en utf-8 que contiene información de las distintas recetas tal como el link de la misma, los ingredientes, los comensales, el tiempo requerido y la dificultad.
