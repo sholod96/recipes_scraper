@@ -10,7 +10,7 @@ date: "14 de Noviembre de 2023"
 
 ## Requirements.
 
-requirements.txt 
+* requirements.txt 
 
 ## Código
 
