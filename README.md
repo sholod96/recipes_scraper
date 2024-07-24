@@ -1,7 +1,6 @@
 ---
 title: "Recipes Scraper: Datos sobre recetas"
 authors: "Sofia Holod"
-date: "14 de Noviembre de 2023"
 ---
 
 # Ficheros
